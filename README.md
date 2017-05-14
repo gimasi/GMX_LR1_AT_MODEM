@@ -4,11 +4,11 @@ This is LoRaWAN stack & AT Modem implementation for the GMX-LR1 node.
 It is based on [ST I-CUBE LRWAN](http://www.st.com/en/embedded-software/i-cube-lrwan.html), which in turn is based on [Semtech](https://github.com/Lora-net/LoRaMac-node) code.<br>
 
 The GMX-LR1 module is used with the multiprotocol IoT [Tuino 1] development board but if you want you can use it also with your hardware.
-Here a picture of the module:
+Here a picture of the module:<br/>
 ![GMX-LR1](/docs/img/gmxfoto1.png?raw=true)
-
+<br/>
 The full source is coming very soon... for now we are publishing the binaries for firmaware updates.
-
+<br/>
 # Using the module with the Tuino 1 
 The full source code and documentation of the client library for the Tuino 1 is [here](https://github.com/gimasi/TUINO_ONE/tree/master/tuino_libs/gmx/gmx_lr).<br/>
 <br/>
@@ -23,8 +23,8 @@ To update the firmware of the module via the USB cable of the Tuino you need:
 *  the excellent STM32 Bootloader utility from Tomasz Watorowski, since the [ST](http://www.st.com/en/development-tools/flasher-stm32.html) original one dosen't really work well. 
 The original project is here [STBootLib](https://github.com/MightyDevices/STBootLib) but for convenience we copied the binaries in [firmware_update/STM32FlashLoader](firmware_update/STM32FlashLoader) folder.<br/>
 <br>
-Once you have uploaded the tuino1-gmax-lr1-bootloader sketch on the Tuino 1 board you have to launch the STM32FlashLoader, it will appear like this:<br>
-![STM32Flash](/docs/img/Stm32FlashLoader.png?raw=true)<br/>
+Once you have uploaded the tuino1-gmax-lr1-bootloader sketch on the Tuino 1 board you have to launch the STM32FlashLoader, it will appear like this:<br/>
+![STM32Flash](/docs/img/Stm32FlashLoader.png?raw=true)
 Choose the COM port where your TUINO is connected (usually the last COM port in the list).<br/>
 Set the page size to 128 ( using the pulldown and not writing directly the number).<br/>
 Select the .bin file from the directory where you have downloaded it.<br/>
