@@ -27,10 +27,10 @@ Once you have uploaded the tuino1-gmax-lr1-bootloader sketch on the Tuino 1 boar
 
 ![STM32Flash](/docs/img/Stm32FlashLoader.png?raw=true)
 
-Choose the COM port where your TUINO is connected (usually the last COM port in the list).<br/>
-Set the page size to 128 ( using the pulldown and not writing directly the number).<br/>
-Select the .bin file from the directory where you have downloaded it.<br/>
-Press "Write Firmware & Jump".</br>
-When the "Programming" action is reaching 100% the LED's on the green LoRaWAN module will flash. If they don't flash, it means something went wrong and please repeat the procedure, first resetting the Tuino 1 board.<br/>
-Install your own use case again to the board via the Arduino IDE<br/>
+1. Choose the COM port where your TUINO is connected (usually the last COM port in the list).
+2. Set the page size to 128 ( using the pulldown and not writing directly the number).
+3. Select the .bin file from the directory where you have downloaded it.
+4. Press "Write Firmware & Jump".
+5. When the "Programming" action is reaching 100% the LED's on the green LoRaWAN module will flash. If they don't flash, it means something went wrong and please repeat the procedure, first resetting the Tuino 1 board.
+6. Install your own use case again on the Tuino 1 board via the Arduino IDE
 
