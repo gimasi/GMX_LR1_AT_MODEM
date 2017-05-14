@@ -24,7 +24,7 @@ We are thinking also of putting together an Arduino Shield and Raspberry Pie shi
 
 # Updating the GMX-LR1 firmware with the Tuino 1
 To update the firmware of the module via the USB cable of the Tuino you need:
-* to upload the bootloader script on the Tuino 1 board, which is the [firmware_update/tuino1-gmax-lr1-bootloader](firmware_update/tuino1-gmax-lr1-bootloader) folder. This code simply makes a passthrough on the two serials of the Tuino 1 connecting the GMX-LR1 serial to the USB port, and at the same time booting the module in the STM32 bootloader mode.
+* to upload the bootloader script on the Tuino 1 board, which is in the [firmware_update/tuino1-gmax-lr1-bootloader](firmware_update/tuino1-gmax-lr1-bootloader) folder. This code simply makes a passthrough on the two serials of the Tuino 1 connecting the GMX-LR1 serial to the USB port, and at the same time booting the module in the STM32 bootloader mode.
 *  the excellent STM32 Bootloader utility from Tomasz Watorowski, since the [ST](http://www.st.com/en/development-tools/flasher-stm32.html) original one dosen't really work well. 
 The original project is here [STBootLib](https://github.com/MightyDevices/STBootLib) but for convenience we copied the binaries in [firmware_update/STM32FlashLoader](firmware_update/STM32FlashLoader) folder.<br/>
 
@@ -33,10 +33,10 @@ Once you have uploaded the tuino1-gmax-lr1-bootloader sketch on the Tuino 1 boar
 ![STM32Flash](/docs/img/Stm32FlashLoader.png?raw=true)
 <br/>
 <br/>
-1. Choose the COM port where your TUINO is connected (usually the last COM port in the list).
+1. Choose the COM port where your Tuino 1 is connected (usually the last COM port in the list).
 2. Set the page size to 128 ( using the pulldown and not writing directly the number).
 3. Select the .bin file from the directory where you have downloaded it.
 4. Press "Write Firmware & Jump".
-5. When the "Programming" action is reaching 100% the LED's on the green LoRaWAN module will flash. If they don't flash, it means something went wrong and please repeat the procedure, first resetting the Tuino 1 board.
+5. When the "Programming" action is reaching 100% the LED's on the GMX-LR1 LoRaWAN module ( the green module) will flash. If they don't flash, it means something went wrong and please repeat the procedure, first resetting the Tuino 1 board.
 6. Install your own use case again on the Tuino 1 board via the Arduino IDE
 
