@@ -7,7 +7,7 @@
 This is LoRaWAN stack & AT Modem implementation for the GMX-LR1 node. 
 It is based on [ST I-CUBE LRWAN](http://www.st.com/en/embedded-software/i-cube-lrwan.html), which in turn is based on [Semtech](https://github.com/Lora-net/LoRaMac-node) code.<br>
 
-The GMX-LR1 module is used with the multiprotocol IoT [Tuino 1] development board but if you want you can use it also with your hardware.
+The GMX-LR1 module is used with the multiprotocol IoT [Tuino 1](https://github.com/gimasi/TUINO_ONE) development board but if you want you can use it also with your hardware.
 Here a picture of the module:<br/>
 <br/>
 ![GMX-LR1](/docs/img/gmxfoto1.png?raw=true)
