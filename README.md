@@ -24,7 +24,9 @@ To update the firmware of the module via the USB cable of the Tuino you need:
 The original project is here [STBootLib](https://github.com/MightyDevices/STBootLib) but for convenience we copied the binaries in [firmware_update/STM32FlashLoader](firmware_update/STM32FlashLoader) folder.<br/>
 <br>
 Once you have uploaded the tuino1-gmax-lr1-bootloader sketch on the Tuino 1 board you have to launch the STM32FlashLoader, it will appear like this:<br/>
+
 ![STM32Flash](/docs/img/Stm32FlashLoader.png?raw=true)
+
 Choose the COM port where your TUINO is connected (usually the last COM port in the list).<br/>
 Set the page size to 128 ( using the pulldown and not writing directly the number).<br/>
 Select the .bin file from the directory where you have downloaded it.<br/>
