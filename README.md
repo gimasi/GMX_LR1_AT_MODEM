@@ -1,3 +1,7 @@
+<b>***  We have released v1.2.2 that fixes OTAA RX2 Join problem, click on [release](https://github.com/gimasi/GMX_LR1_AT_MODEM/releases) to download the binary ***<b/>
+<br/>
+<br/>
+
 # GMX_LR1_AT_MODEM
 
 This is LoRaWAN stack & AT Modem implementation for the GMX-LR1 node. 
@@ -8,7 +12,7 @@ Here a picture of the module:<br/>
 <br/>
 ![GMX-LR1](/docs/img/gmxfoto1.png?raw=true)
 <br/>
-The full source is coming very soon... for now we are publishing the binaries for firmaware updates.
+<b>The full source is coming very soon...</b> for now we are publishing the binaries for firmaware updates.
 <br/>
 # Using the module with the Tuino 1 
 The full source code and documentation of the client library for the Tuino 1 is [here](https://github.com/gimasi/TUINO_ONE/tree/master/tuino_libs/gmx/gmx_lr).<br/>
