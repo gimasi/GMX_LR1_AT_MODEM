@@ -24,7 +24,7 @@ We are thinking also of putting together an Arduino Shield and Raspberry Pie shi
 
 # Updating the GMX-LR1 firmware with the Tuino 1
 To update the firmware of the module via the USB cable of the Tuino you need:
-* to upload the bootloader script on the Tuino 1 board, which is in the [firmware_update/tuino1-gmax-lr1-bootloader](firmware_update/tuino1-gmax-lr1-bootloader) folder. This code simply makes a passthrough on the two serials of the Tuino 1 connecting the GMX-LR1 serial to the USB port, and at the same time booting the module in the STM32 bootloader mode.
+* to upload the bootloader script on the Tuino 1 board, which is in the [firmware_update/tuino1-gmax-lr1-bootloader](https://github.com/gimasi/GMX_LR1_AT_MODEM/tree/master/firmware_update/tuino1-gmx-lr1-bootloader) folder. This code simply makes a passthrough on the two serials of the Tuino 1 connecting the GMX-LR1 serial to the USB port, and at the same time booting the module in the STM32 bootloader mode.
 *  the excellent STM32 Bootloader utility from Tomasz Watorowski, since the [ST](http://www.st.com/en/development-tools/flasher-stm32.html) original one dosen't really work well. 
 The original project is here [STBootLib](https://github.com/MightyDevices/STBootLib) but for convenience we copied the binaries in [firmware_update/STM32FlashLoader](firmware_update/STM32FlashLoader) folder.<br/>
 
