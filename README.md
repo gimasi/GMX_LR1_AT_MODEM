@@ -1,4 +1,4 @@
-<b>***  We have released v1.2.2 that fixes OTAA RX2 Join problem, click on [release](https://github.com/gimasi/GMX_LR1_AT_MODEM/releases) to download the binary ***</b>
+<b>***  We have released v1.2.2 that fixes OTAA RX2 Join problem, click on [release](https://github.com/gimasi/GMX_LR1_AT_MODEM/releases) to download the binary ( this firmware is valid only for the GREEN GMX Boards, if you have the latest BLUE boads please contact us for any update ) ***</b>
 <br/>
 <br/>
 
